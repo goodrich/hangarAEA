@@ -485,7 +485,7 @@ d-flex
 align-items-center
 bg_cover
 "
-style="background-image: url(https://cdn.ayroui.com/1.0/images/coming-soon/background.png)"
+style="background-image: url(img/hangar.jpg)"
 >
 <div class="container">
    <div class="row justify-content-center">
@@ -499,19 +499,19 @@ style="background-image: url(https://cdn.ayroui.com/1.0/images/coming-soon/backg
                   </li>
                   <li>
                      <span class="count hours">53</span>
-                     <p class="text hours_text">Hours</p>
+                     <p class="text hours_text">Horas</p>
                   </li>
                   <li>
                      <span class="count minutes">34</span>
-                     <p class="text minutes_text">Minutes</p>
+                     <p class="text minutes_text">Minutos</p>
                   </li>
                   <li>
                      <span class="count seconds">08</span>
-                     <p class="text seconds_text">Seconds</p>
+                     <p class="text seconds_text">Segundos</p>
                   </li>
                </ul>
             </div>
-            <h2 class="coming-soon-title">coming soon</h2>
+            <h2 class="coming-soon-title">Fecha fin prevista</h2>
             <div class="coming-soon-btn rounded-buttons">
                <ul>
                   <li>
@@ -544,7 +544,7 @@ style="background-image: url(https://cdn.ayroui.com/1.0/images/coming-soon/backg
 <!--====== COMING SOON PART ENDS ======-->
 <script>
 // ====== date countdown
-const end = new Date("May 03, 2025 00:00:00").getTime();
+const end = new Date("Agosto 31, 2025 00:00:00").getTime();
 //const end = new Date("November 09, 2020 00:00:00").getTime();
 const dayEl = document.querySelector(".days");
 const hoursEl = document.querySelector(".hours");
@@ -561,7 +561,7 @@ const x = setInterval(function () {
 
   if (difference < 0) {
     clearInterval(x);
-    document.getElementById("done").innerHTML = "We're married! ðŸŽ‰";
+    document.getElementById("done").innerHTML = "Lo hemos logrado !!";
     return;
   }
 
