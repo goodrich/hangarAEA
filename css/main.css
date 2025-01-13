@@ -1349,7 +1349,7 @@ footer {
   font-size: 52px;
   font-weight: 600;
   line-height: 60px;
-  color: var(--white);
+  color: #fff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .coming-soon-one .coming-soon-content .countdown ul li .count {
@@ -1372,7 +1372,7 @@ footer {
   font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
-  color: var(--white);
+  color: #fff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .coming-soon-one .coming-soon-content .countdown ul li .text {
@@ -1393,7 +1393,7 @@ footer {
 }
 .coming-soon-one .coming-soon-content .coming-soon-title {
   font-size: 72px;
-  color: var(--white);
+  color: #fff;
   line-height: 85px;
   text-transform: uppercase;
   margin-top: 30px;
